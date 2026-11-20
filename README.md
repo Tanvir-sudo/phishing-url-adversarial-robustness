@@ -44,7 +44,7 @@ The notebook was developed on Google Colab with a GPU (BERT fine-tuning takes ab
    - **PhishTank** verified online URLs -> `verified_online.csv`
 2. Upload both to `/content/` in Colab (or edit the paths in the data-loading cell).
 3. `pip install -r requirements.txt`
-4. Run `notebooks/phishing_robustness_evaluation.ipynb` top to bottom. All randomness is seeded (`SEED = 1337`). Result tables and figures are written to `/content/tables/` and `/content/plots/`.
+4. Run `phishing_robustness_evaluation.ipynb` top to bottom. All randomness is seeded (`SEED = 1337`). Result tables and figures are written to `/content/tables/` and `/content/plots/`.
 
 Datasets and trained model weights are not included in this repository.
 
