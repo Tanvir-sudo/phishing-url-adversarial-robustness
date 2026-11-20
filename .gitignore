@@ -1,0 +1,10 @@
+# Data and model weights (download separately)
+*.csv
+*.pkl
+*.pth
+*.safetensors
+saved_models/
+results_bundle/
+
+__pycache__/
+.ipynb_checkpoints/
